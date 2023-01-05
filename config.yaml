@@ -2,11 +2,11 @@ baseurl: https://dodero10.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Truong Cong Dat
+title: Dodero
 enableGitInfo: true
 
 # Change it to your Disqus shortname before using
-
+disqusShortname: Dodero10
 
 # GA Tracking ID
 googleAnalytics:
@@ -36,7 +36,7 @@ params:
 
     sidebar:
         emoji: 🙃
-        subtitle: Hi, I'm Dat. I'm a student at HUST
+        subtitle: Hi, I'm Dat. I'm a student, and a researcher. More at About page.
         avatar:
             enabled: true
             local: true
@@ -48,7 +48,7 @@ params:
         readingTime: true
         license:
             enabled: true
-            default: LICENSED UNDER CC BY-NC-SA 4.0
+            default: MIT
 
     comments:
         enabled: true
@@ -103,10 +103,10 @@ params:
 
         # Parameter detail can be found at https://giscus.app/        
         giscus:
-            repo: Dodero10/dodero10.github.io
-            repoID: R_kgDOHSRJfw
+            repo: MasterPi-2124/MasterPi-2124.github.io
+            repoID: MDEwOlJlcG9zaXRvcnk0MDQwNDgxMjM=
             category: General
-            categoryID: DIC_kwDOHSRJf84CO86H
+            categoryID: DIC_kwDOGBVI-84B_HDA
             mapping:
             lightTheme:
             darkTheme:
@@ -118,12 +118,16 @@ params:
             - search
             - archives
             - tag-cloud
+            - subscribe
 
         archives:
             limit: 3
 
         tagCloud:
             limit: 20
+        
+        subscribe:
+            mailchimp: https://mailchi.mp/a54b51f2c263/thejournney
 
     opengraph:
         twitter:
